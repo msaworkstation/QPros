@@ -15,7 +15,7 @@ public class WebActions {
         getElement(webDriver, by).click();
     }
 
-    public static void click(WebDriver webDriver, WebElement webElement){
+    public static void click(WebElement webElement){
         webElement.click();
     }
 
@@ -23,6 +23,7 @@ public class WebActions {
         webDriver.get(url);
         webDriver.manage().window().maximize();
     }
+
     public static void waitForVisibility(WebDriver webDriver, By by, int timeout){
         WebDriverWait wait = new WebDriverWait(webDriver, timeout);
         wait.until(ExpectedConditions.visibilityOfElementLocated(by));

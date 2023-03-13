@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite">
+    <test name="Register">
+        <classes>
+            <class name="org.qpros.modules.Register"/>
+        </classes>
+    </test>
+    <test name="Login">
+        <classes>
+            <class name="org.qpros.modules.Login"/>
+        </classes>
+    </test>
+    <test name="Check List Items">
+        <classes>
+            <class name="org.qpros.modules.CheckListItems"/>
+        </classes>
+    </test>
+    <test name="Add Item">
+        <classes>
+            <class name="org.qpros.modules.AddItem"/>
+        </classes>
+    </test>
+    <test name="Delete Item">
+        <classes>
+            <class name="org.qpros.modules.DeleteItem"/>
+        </classes>
+    </test>
+    <test name="Add Item 2">
+        <classes>
+            <class name="org.qpros.modules.AddItem"/>
+        </classes>
+    </test>
+    <test name="Place Order">
+        <classes>
+            <class name="org.qpros.modules.PlaceOrder"/>
+        </classes>
+    </test>
+</suite>
